@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.header{
+    background-color:#87ceeb;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.main{
+    display: flex;
+    gap:10px;
+}
+
+.sidebar{
+    background-color:#3cb371;
+    width: 300px;
+    height: 500px;
+    padding: 5px;
+}
+
+.content{
+    background-color: #cd5c5c;
+    width: 1000px;
+    height: 500px;
+    padding: 5px;
+}
+
+.footer{
+    background-color: #9370db;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+}
