@@ -1,0 +1,16 @@
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap:10px;
+    padding: 10px;
+}
+
+.item{
+    background-color: #800080;
+    width: 50px;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
